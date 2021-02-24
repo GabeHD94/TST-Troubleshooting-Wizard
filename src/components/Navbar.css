@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #12232E ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100px;
+}
+
+.nav-bars {
+    color: white;
+    text-decoration: none;
+    padding: 42px;
+    transition: 0.3s; 
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.nav-bars:hover {
+    background: #00B0F0;
+}
+
+.alderlogo {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+.nav-logo{
+    margin-right: 18vw;
+    margin-left: 2vw
+}
+

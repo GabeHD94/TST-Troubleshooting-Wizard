@@ -1,0 +1,21 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  /* color: white; */
+  text-decoration: none;
+  
+}
+
+.app{ 
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
