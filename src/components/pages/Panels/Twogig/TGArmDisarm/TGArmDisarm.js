@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import TGPanel from '../../../../../pictures/2GIG-Panel.png';
-import TGArmDisarmSS from './TGArmDisarmSS'
+// import TGArmDisarmSS from './TGArmDisarmSS'
 
 function TGArmDisarm() {
     // this animates whole component

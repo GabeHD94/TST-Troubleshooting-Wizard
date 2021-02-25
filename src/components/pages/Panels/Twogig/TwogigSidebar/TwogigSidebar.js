@@ -29,9 +29,11 @@ function TwogigSidebar() {
                     </li>
                 </Link>
                 
+                <Link to='/2gig/emergency-buttons' className='tg-bars' >
                     <li>
                         Emergency Buttons
                     </li>
+                </Link>
                 <h2>Toolbox</h2>
                     <li>
                         Add User Codes
