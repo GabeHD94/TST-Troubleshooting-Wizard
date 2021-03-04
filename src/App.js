@@ -10,6 +10,7 @@ import Other from './components/pages/Other/Other';
 import Home from './components/pages/Home/Home'
 import Navbar from './components/Navbar';
 import Twogig from './components/pages/Panels/Twogig/Twogig'
+import AlderSimple from './components/pages/Panels/AlderSimple/AlderSimple'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/other' component={Other}/>
         {/*Common routes*/}
         <Route path='/2gig' component={Twogig}/>
+        <Route path='/alder-simple' component={AlderSimple}/>
       </Switch>
     </Router>
   );

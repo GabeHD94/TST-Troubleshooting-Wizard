@@ -3,6 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import TGPanel from '../../../../../pictures/2GIG-Panel.png';
 
 
+
 function TGPanelComFailure() {
     // this animates whole component
     const props = useSpring({

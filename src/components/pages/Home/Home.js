@@ -22,10 +22,13 @@ function Home() {
                             2GIG Panel
                     </li>
                 </Link>
+                <Link to='/alder-simple' className='common-bars' >
                 <li className='common-links'>
                     <img src = {Panelsvg} alt='simple-panel' height="87" width="87"></img>
                         Alder Simple Panel
                 </li>
+                </Link>
+
                 <li className='common-links'>
                     <img src = {DWSensorsvg} alt='door-window' height="87" width="87"></img>
                         Alder Simple Door/Window Sensor

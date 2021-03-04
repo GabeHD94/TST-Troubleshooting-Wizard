@@ -13,7 +13,6 @@ import TGDateSettings from './TGDateSettings/TGDateSettings'
 import TGTimeSettings from './TGTimeSettings/TGTimeSettings'
 import TGVolume from './TGVolume/TGVolume'
 import TGChimeSetup from './TGChimeSetup/TGChimeSetup'
-
 import TGSystemHistory from './TGSystemHistory/TGSystemHistory'
 import TGSystenInfo from './TGSystemInfo/TGSystemInfo'
 import TGCellTest from './TGCellTest/TGCellTest'

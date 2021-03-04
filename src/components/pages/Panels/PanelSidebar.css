@@ -1,4 +1,4 @@
-.twogig-sidebar-wrapper {
+.sidebar-wrapper {
     display: grid;
     align-items: center;
     background-color: #203647;
@@ -16,18 +16,18 @@
     bottom: 0;
 }
 
-.twogig-sidebar-wrapper li{
+.sidebar-wrapper li{
     /* transition: 0.2s; */
     padding: 10px;
     border-radius: 25px;
 }
 
-.twogig-sidebar-wrapper h2{
+.sidebar-wrapper h2{
     padding: 10px;
     text-decoration: underline;
 }
 
-.twogig-sidebar-wrapper li:hover {
+.sidebar-wrapper li:hover {
     background-color: #00B0F0;
     color: white;
     cursor: pointer;
@@ -55,6 +55,6 @@
     background: #555; 
 }
 
-.tg-bars {
+.bars {
     color: white;
 }
