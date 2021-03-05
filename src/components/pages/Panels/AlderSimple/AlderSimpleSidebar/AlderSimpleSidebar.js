@@ -45,36 +45,16 @@ function AlderSimpleSidebar() {
                         Change/Remove User Code
                     </li>
                 </Link>
-                <Link to='/alder-simple/brightness' className='bars' >
+                <Link to='/alder-simple/brightness-timeout' className='bars' >
                     <li>
-                        Brightness
-                    </li>
-                </Link>
-                <Link to='/alder-simple/backlight-timeout' className='bars' >
-                    <li>
-                        Backlight Timeout
+                        Brightness/Display Timeout
                     </li>
                 </Link>
                 <Link to='/alder-simple/clean-screen' className='bars' >
                     <li>
                         Clean Screen
                     </li>
-                </Link>
-                <Link to='/alder-simple/calibrate-screen' className='bars' >
-                    <li>
-                        Calibrate Touch Screen
-                    </li>
-                </Link>
-                <Link to='/alder-simple/date-settings' className='bars' >
-                    <li>
-                        Date Settings
-                    </li>
-                </Link>
-                <Link to='/alder-simple/time-settings' className='bars' >
-                    <li>
-                        Time Settings
-                    </li>
-                </Link>
+                </Link>   
                 <Link to='/alder-simple/volume' className='bars' >
                     <li>
                         Volume

@@ -1,5 +1,18 @@
 import React from 'react'
 import AlderSimpleSidebar from '../AlderSimple/AlderSimpleSidebar/AlderSimpleSidebar'
+import ASArmDisarm from './ASArmDisarm/ASArmDisarm'
+import ASEmergencyButtons from './ASEmergencyButtons/ASEmergencyButtons'
+import ASAddUserCodes from './ASAddUserCodes/ASAddUserCodes'
+import ASChangeRemoveUser from './ASChangeRemoveUser/ASChangeRemoveUser'
+import ASCleanScreen from './ASCleanScreen/ASCleanScreen'
+import ASBrightness from './ASBrightness/ASBrightness'
+import ASVolume from './ASVolume/ASVolume'
+import ASChime from './ASChime/ASChime'
+import ASSystemHistory from './ASSystemHistory/ASSystemHistory'
+import ASSystemInfo from './ASSystemInfo/ASSystemInfo'
+import ASCellTest from './ASCellTest/ASCellTest'
+import ASResetPanel from './ASResetPanel/ASResetPanel'
+import ASPanelCommFailure from './ASPanelCommFailure/ASPanelCommFailure'
 import './AlderSimple.css'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -13,27 +26,22 @@ function AlderSimple() {
             <AlderSimpleSidebar />
                 <Switch>
 
-                    {/* <Route path='/alder-simple/arm-disarm' component={TGArmDisarm}/>
-                    <Route path='/alder-simple/trouble-beeps' component={TGTroubleBeeps}/>
-                    <Route path='/alder-simple/emergency-buttons' component={TGEmergencyButtons}/>
-                    <Route path='/alder-simple/add-user-codes' component={TGAddUserCodes}/>
-                    <Route path='/alder-simple/change-remove-user-codes' component={TGChangeRemoveUser}/>
-                    <Route path='/alder-simple/brightness' component={TGBrightness}/>
-                    <Route path='/alder-simple/backlight-timeout' component={TGBacklight}/>
-                    <Route path='/alder-simple/clean-screen' component={TGCleanScreen}/>
-                    <Route path='/alder-simple/calibrate-screen' component={TGCalibrateScreen}/>
-                    <Route path='/alder-simple/date-settings' component={TGDateSettings}/>
-                    <Route path='/alder-simple/time-settings' component={TGTimeSettings}/>
-                    <Route path='/alder-simple/volume' component={TGVolume}/>
-                    <Route path='/alder-simple/chime-setup' component={TGChimeSetup}/>
-                    <Route path='/alder-simple/system-history' component={TGSystemHistory}/>
-                    <Route path='/alder-simple/system-info' component={TGSystenInfo}/>
-                    <Route path='/alder-simple/cell-test' component={TGCellTest}/>
-                    <Route path='/alder-simple/reset-panel' component={TGResetPanel}/>
+                    <Route path='/alder-simple/arm-disarm' component={ASArmDisarm}/>
+                    {/* <Route path='/alder-simple/trouble-beeps' component={TGTroubleBeeps}/> */}
+                    <Route path='/alder-simple/emergency-buttons' component={ASEmergencyButtons}/>
+                    <Route path='/alder-simple/add-user-codes' component={ASAddUserCodes}/>
+                    <Route path='/alder-simple/change-remove-user-codes' component={ASChangeRemoveUser}/>
+                    <Route path='/alder-simple/brightness-timeout' component={ASBrightness}/>
+                    <Route path='/alder-simple/clean-screen' component={ASCleanScreen}/>
+                    <Route path='/alder-simple/volume' component={ASVolume}/>
+                    <Route path='/alder-simple/chime-setup' component={ASChime}/>
+                    <Route path='/alder-simple/system-history' component={ASSystemHistory}/>
+                    <Route path='/alder-simple/system-info' component={ASSystemInfo}/>
+                    <Route path='/alder-simple/cell-test' component={ASCellTest}/>
+                    <Route path='/alder-simple/reset-panel' component={ASResetPanel}/>
  
-                    <Route path='/2gig/panel-com-faliure' component={TGPanelComFaliure}/>
-                    <Route path='/2gig/power-failure' component={TGPowerFaliure}/>
-                    <Route path='/2gig/panel-lowbatt' component={TGPanelLowBatt}/>
+                    <Route path='/alder-simple/panel-com-faliure' component={ASPanelCommFailure}/>
+                     {/*  <Route path='/2gig/power-failure' component={TGPowerFaliure}/>
                     <Route path='/2gig/programming-questions' component={TGProgrammingQ}/> */}
                     <p>Alder Simple Panel</p>
                 </Switch>
