@@ -1,0 +1,59 @@
+.dw-sidebar-wrapper {
+    /* position: relative; */
+    display: grid;
+    align-items: center;
+    background-color: #203647;
+    list-style: none;
+    width: 280px;
+    padding: 9.7px;
+    min-width: 15rem;
+    height: 51.1rem;
+    font-weight: bold;
+    font-size: small;
+    color:white;
+    overflow-y: scroll;
+
+}
+
+.dw-sidebar-wrapper li{
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.dw-sidebar-wrapper h2{
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.dw-sidebar-wrapper li:hover {
+    background-color: #00B0F0;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:  #203647; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.dw-bars {
+    color: white;
+}

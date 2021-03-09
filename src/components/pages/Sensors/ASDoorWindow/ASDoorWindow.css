@@ -1,8 +1,7 @@
-.alder-simple-wrapper {
+.alder-door-window-wrapper {
     display: flex;
 }
-
-.alder-simple-wrapper p {
+.alder-door-window-wrapper p {
     color: rgb(167, 167, 167);
     align-items: center;
     text-align: center;
@@ -14,38 +13,38 @@
 }
 
   
-.alder-simple-body {
+.alder-door-window-body {
     color: rgb(92, 92, 92);
 }
 
-.alder-simple-indent{ 
+.alder-door-window-indent{ 
     margin-left: 20px;
 }
 
-.alder-simple-steps {
+.alder-door-window-steps {
     font-size: 15px;
     text-align: left;
     margin: 20px;
     width:30em;
 }
 
-.alder-simple-steps li{
+.alder-door-window-steps li{
     margin: 8px;
 }
 
-.alder-simple-container {
+.alder-door-window-container {
     flex-wrap:wrap;
     text-align:center;
     display: flex;
     margin:0rem auto 0rem auto;
 }
 
-.alder-simple-panelpic {
+.alder-door-window-panelpic {
     width: 80%;
     height: 80%;
 }
 
-.alder-simple-ss-mode {
+.alder-door-window-ss-mode {
     color: white;
     cursor: pointer;
     background: rgb(187, 187, 187);
@@ -56,13 +55,13 @@
     transition: 0.3s;
 }
 
-.alder-simple-ss-mode:hover {
+.alder-door-window-ss-mode:hover {
     color: white;
     cursor: pointer;
     background: rgb(102, 102, 102);
 
 }
 
-.alder-simple-headers h1 {
+.alder-door-window-headers h1 {
     margin-bottom: -2.5vh;
 }

@@ -28,11 +28,12 @@ function Home() {
                         Alder Simple Panel
                 </li>
                 </Link>
-
+                <Link to='/alder-door-window' className='common-bars' >
                 <li className='common-links'>
                     <img src = {DWSensorsvg} alt='door-window' height="87" width="87"></img>
                         Alder Simple Door/Window Sensor
                 </li>
+                </Link>
                 <li className='common-links'>
                         <img src = {Motionsvg} alt='motion-detector' height="87" width="87"></img>
                         Alder Simple Motion Detector

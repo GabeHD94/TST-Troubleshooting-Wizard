@@ -110,7 +110,7 @@ function AlderSimpleSidebar() {
                 <h2>Manuals</h2>
                 <Link to='/alder-simple/user-guide' className='bars' >
                     <li>
-                        2GIG User Guide
+                        Alder Simple User Guide
                     </li>
                 </Link>
                 <Link to='/alder-simple/installer-guide' className='bars' >
@@ -118,13 +118,6 @@ function AlderSimpleSidebar() {
                         Installer Guide
                     </li>
                 </Link>
-                <Link to='/alder-simple/specification-sheet' className='bars' >
-
-                    <li>
-                        Specification Sheet
-                    </li>
-                </Link>
-
                     
             </ul>
             &nbsp;

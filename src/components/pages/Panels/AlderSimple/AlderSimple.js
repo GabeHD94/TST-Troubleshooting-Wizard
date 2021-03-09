@@ -13,6 +13,8 @@ import ASSystemInfo from './ASSystemInfo/ASSystemInfo'
 import ASCellTest from './ASCellTest/ASCellTest'
 import ASResetPanel from './ASResetPanel/ASResetPanel'
 import ASPanelCommFailure from './ASPanelCommFailure/ASPanelCommFailure'
+import ASPowerFailure from './ASPowerFailure/ASPowerFailure'
+import ASPanelLowBatt from './ASPanelLowBatt/ASPanelLowBatt'
 import './AlderSimple.css'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -39,10 +41,9 @@ function AlderSimple() {
                     <Route path='/alder-simple/system-info' component={ASSystemInfo}/>
                     <Route path='/alder-simple/cell-test' component={ASCellTest}/>
                     <Route path='/alder-simple/reset-panel' component={ASResetPanel}/>
- 
                     <Route path='/alder-simple/panel-com-faliure' component={ASPanelCommFailure}/>
-                     {/*  <Route path='/2gig/power-failure' component={TGPowerFaliure}/>
-                    <Route path='/2gig/programming-questions' component={TGProgrammingQ}/> */}
+                    <Route path='/alder-simple/power-failure' component={ASPowerFailure}/>
+                    <Route path='/alder-simple/panel-lowbatt' component={ASPanelLowBatt}/>
                     <p>Alder Simple Panel</p>
                 </Switch>
 

@@ -11,6 +11,7 @@ import Home from './components/pages/Home/Home'
 import Navbar from './components/Navbar';
 import Twogig from './components/pages/Panels/Twogig/Twogig'
 import AlderSimple from './components/pages/Panels/AlderSimple/AlderSimple'
+import ASDoorWindowSensor from './components/pages/Sensors/ASDoorWindow/ASDoorWindow'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         {/*Common routes*/}
         <Route path='/2gig' component={Twogig}/>
         <Route path='/alder-simple' component={AlderSimple}/>
+        <Route path='/alder-door-window' component={ASDoorWindowSensor}/>
       </Switch>
     </Router>
   );
