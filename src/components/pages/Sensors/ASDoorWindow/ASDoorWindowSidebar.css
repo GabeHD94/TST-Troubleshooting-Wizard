@@ -1,18 +1,18 @@
+
 .dw-sidebar-wrapper {
-    /* position: relative; */
+    position: relative;
     display: grid;
     align-items: center;
-    background-color: #203647;
     list-style: none;
     width: 280px;
     padding: 9.7px;
     min-width: 15rem;
-    height: 51.1rem;
+    height: 100%;
     font-weight: bold;
     font-size: small;
     color:white;
     overflow-y: scroll;
-
+    
 }
 
 .dw-sidebar-wrapper li{
@@ -32,28 +32,29 @@
 }
 
 
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
     
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
     background:  #203647; 
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     border-radius: 25px;
     background: #888; 
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
 
 .dw-bars {
     color: white;
+} 
+
+.dw-sidebar-container {
+    height: 90%;
+    margin-bottom: -10vh;
 }

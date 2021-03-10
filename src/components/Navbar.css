@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    min-height: 100px;
+    height: 10vh;
 }
 
 .nav-bars {
@@ -30,7 +30,7 @@
     height: auto;
     width: auto;
     max-height: 72px;
-    max-width: 250px;
+    max-width: 250spx;
 }
 
 .nav-logo{

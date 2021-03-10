@@ -1,7 +1,19 @@
 .alder-door-window-wrapper {
-    display: flex;
+    background-color: aqua;
 }
-.alder-door-window-wrapper p {
+
+.alder-door-window-container {
+    display: flex;
+    
+}
+
+.sidebar-space{
+    background-color: #203647;
+    height: 90vh;
+    /* margin-bottom: -10vh; */
+    width: 16%;
+}
+/* .alder-door-window-wrapper p {
     color: rgb(167, 167, 167);
     align-items: center;
     text-align: center;
@@ -32,36 +44,14 @@
     margin: 8px;
 }
 
-.alder-door-window-container {
-    flex-wrap:wrap;
-    text-align:center;
-    display: flex;
-    margin:0rem auto 0rem auto;
-}
 
 .alder-door-window-panelpic {
     width: 80%;
     height: 80%;
 }
 
-.alder-door-window-ss-mode {
-    color: white;
-    cursor: pointer;
-    background: rgb(187, 187, 187);
-    width: 12vw;
-    padding: 1vw;
-    margin:0rem auto 0rem auto;
-    text-align:center;
-    transition: 0.3s;
-}
-
-.alder-door-window-ss-mode:hover {
-    color: white;
-    cursor: pointer;
-    background: rgb(102, 102, 102);
-
-}
 
 .alder-door-window-headers h1 {
     margin-bottom: -2.5vh;
 }
+*/
