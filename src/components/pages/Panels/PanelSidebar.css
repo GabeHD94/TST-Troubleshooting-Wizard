@@ -4,15 +4,16 @@
     background-color: #203647;
     list-style: none;
     width: 280px;
-    padding: 9.7px;
+    padding: 0px 10px 0px 10px;
     min-width: 15rem;
-    min-height: 100%;
+    /* min-height: 100%; */
     font-weight: bold;
     font-size: small;
     color:white;
     overflow-y: scroll;
     top: 0;
-    max-height: calc(100vh - 8.7rem);
+    /* max-height: calc(100vh - 8.3rem); */
+    height: 90vh;
     bottom: 0;
 }
 

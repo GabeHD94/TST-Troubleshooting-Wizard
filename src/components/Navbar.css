@@ -1,15 +1,15 @@
 .navbar {
     background-color: #12232E ;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    /* width: 100vw; */
     height: 10vh;
 }
 
 .nav-bars {
     color: white;
     text-decoration: none;
-    padding: 42px;
+    padding: 3rem;
     transition: 0.3s; 
     list-style: none;
 }
@@ -23,7 +23,8 @@
 
 
 .nav-bars:hover {
-    background: #00B0F0;
+    font-size: large;
+    color: #00B0F0;
 }
 
 .alderlogo {

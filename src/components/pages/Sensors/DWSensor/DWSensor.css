@@ -1,0 +1,71 @@
+.dw-sensor-wrapper {
+    display: flex;
+    
+}
+
+.dw-sensor-wrapper p {
+    color: rgb(167, 167, 167);
+    align-items: center;
+    text-align: center;
+    font-weight:400;
+    font-size: 50px;
+    padding-top: 300px;
+    min-width: 100rem;
+    min-height: 10rem;
+
+}
+
+  
+.dw-body {
+    color: rgb(92, 92, 92);
+    
+}
+
+.list-indent{ 
+    margin-left: 20px;
+}
+
+.dw-steps {
+    font-size: 15px;
+    text-align: left;
+    margin: 20px;
+    width:30em;
+}
+
+.dw-steps li{
+    margin: 8px;
+}
+
+.dw-container {
+    flex-wrap:wrap;
+    text-align:center;
+    display: flex;
+    margin:0rem auto 0rem auto;
+}
+
+.dw-panelpic {
+    width: 80%;
+    height: 80%;
+}
+
+.dw-ss-mode {
+    color: white;
+    cursor: pointer;
+    background: rgb(187, 187, 187);
+    width: 12vw;
+    padding: 1vw;
+    margin:0rem auto 0rem auto;
+    text-align:center;
+    transition: 0.3s;
+}
+
+.dw-ss-mode:hover {
+    color: white;
+    cursor: pointer;
+    background: rgb(102, 102, 102);
+
+}
+
+.dw-headers h1 {
+    margin-bottom: -2.5vh;
+}
