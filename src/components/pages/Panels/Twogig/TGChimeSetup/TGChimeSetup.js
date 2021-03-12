@@ -21,9 +21,8 @@ function TGChimeSetup() {
                         <h1>Chime Setup</h1>
                         <h3 className="tg-mode">Overview</h3>
                     </div>
-                        <img className="tg-panelpic" src={TGPanel} alt="TGPanel" />
-                        <div className="TG">
-                        </div>
+                    <iframe width="412" height="302" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
+
 
                         <ol className="tg-steps">
                             <li>Press the Home button (Arrow Pointing Up) on the panel.</li>

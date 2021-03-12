@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import ASPanel from '../../../../../pictures/AS-Panel.png';
+
 // import TGArmDisarmSS from './TGArmDisarmSS'
 
 function ASSystemInfo() {
@@ -23,9 +23,9 @@ function ASSystemInfo() {
                         <h1>System Information</h1>
                         <h3 className="alder-simple-mode">Overview</h3>
                     </div>
-                        <img className="alder-simple-panelpic" src={ASPanel} alt="TGPanel" />
-                        <div className="TG">
-                        </div>
+                    <iframe src="https://xd.adobe.com/embed/b6da5216-f35e-4c9c-4a59-64934ecae8a4-c0eb/?fullscreen" width="537" height="316" frameborder="0" allowfullscreen></iframe>
+                        <h4>Interactive</h4>
+
 
                         <ol className="alder-simple-steps">
                             <li>Press the Home button.</li>
@@ -33,8 +33,8 @@ function ASSystemInfo() {
                             <li>Enter the Master Code.</li>
                             <li>Press "System".</li>
                             <li>Press "System Info".</li>
-                            <li>The panel will display the system information.</li>                
-                            <li>Press the Home button to return to the home screen.</li>                
+                            <li>The panel will display the system information.</li>
+                            <li>Press the Home button to return to the home screen.</li>
                         </ol>
                         {/* <h2 className="tg-ss-mode" onClick={() => setMode(!mode)}>Step-by-Step Mode</h2> */}
                     </animated.div>

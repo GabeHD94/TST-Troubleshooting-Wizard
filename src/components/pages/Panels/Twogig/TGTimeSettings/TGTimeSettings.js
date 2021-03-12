@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import TGPanel from '../../../../../pictures/2GIG-Panel.png';
 
 function TGTimeSettings() {
     // this animates whole component
@@ -21,9 +20,8 @@ function TGTimeSettings() {
                         <h1>Time Settings</h1>
                         <h3 className="tg-mode">Overview</h3>
                     </div>
-                        <img className="tg-panelpic" src={TGPanel} alt="TGPanel" />
-                        <div className="TG">
-                        </div>
+                    <iframe width="412" height="302" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
+
 
                         <ol className="tg-steps">
                             <li>Press the Home button (Arrow Pointing Up) on the panel.</li>
@@ -32,7 +30,7 @@ function TGTimeSettings() {
                             <li>Press "Toolbox".</li>
                             <li>Enter the Master Code.</li>
                             <li>Press the right arrow once. You should be on Toolbox (2 of 3).</li>
-                            <li>Press "Set Tate".</li>
+                            <li>Press "Set Date".</li>
                             <li>Use the arrows to adjust the time.</li>
                             <li>Press the Home button to return to the Home Screen.</li>
                         </ol>

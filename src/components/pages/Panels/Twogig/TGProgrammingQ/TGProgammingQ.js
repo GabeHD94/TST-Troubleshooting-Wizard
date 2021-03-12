@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import TGPanel from '../../../../../pictures/2GIG-Panel.png';
 
 function TGProgrammingQ() {
     // this animates whole component
@@ -22,9 +21,8 @@ function TGProgrammingQ() {
                         <h1>Add User Codes</h1>
                         <h3 className="tg-mode">Overview</h3>
                     </div>
-                        <img className="tg-panelpic" src={TGPanel} alt="TGPanel" />
-                        <div className="TG">
-                        </div>
+                    <iframe width="412" height="302" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
+
 
                         <ol className="tg-steps">
                             <li>Press the Home button (Arrow Pointing Up) on the panel.</li>

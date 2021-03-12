@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import ASPanel from '../../../../../pictures/AS-Panel.png';
+
 // import TGArmDisarmSS from './TGArmDisarmSS'
 
 function ASPanelCommFailure() {
@@ -23,7 +23,9 @@ function ASPanelCommFailure() {
                         <h1>Panel Low Battery</h1>
                         <h3 className="alder-simple-mode">Overview</h3>
                     </div>
-                        <img className="alder-simple-panelpic" src={ASPanel} alt="TGPanel" />
+                    <iframe src="https://xd.adobe.com/embed/b6da5216-f35e-4c9c-4a59-64934ecae8a4-c0eb/?fullscreen" width="537" height="316" frameborder="0" allowfullscreen></iframe>
+                        <h4>Interactive</h4>
+
 
                         <ol className="alder-simple-steps">
                             <li>When a fire alarm is triggered on an Alder Simple panel, sometimes the panel will continue to siren even after the panel has been disarmed.</li>

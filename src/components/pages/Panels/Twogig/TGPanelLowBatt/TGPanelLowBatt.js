@@ -23,8 +23,6 @@ function TGPanelLowBatt() {
                         <h3 className="tg-mode">Overview</h3>
                     </div>
                         <img className="tg-panelpic" src={TGLowBattery} alt="TGPanel" />
-                        <div className="TG">
-                        </div>
 
                         <ol className="tg-steps">
                             <li>Check the top right corner of the screen on the panel. There will be an icon of a plug. Verify there is not a red X on the icon.</li>

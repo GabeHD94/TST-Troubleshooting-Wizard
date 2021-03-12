@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import TGPanel from '../../../../../pictures/2GIG-Panel.png';
+
 // import TGArmDisarmSS from './TGArmDisarmSS'
 
 function TGArmDisarm() {
@@ -23,9 +23,7 @@ function TGArmDisarm() {
                         <h1>Arm/Disarm</h1>
                         <h3 className="tg-mode">Overview</h3>
                     </div>
-                        <img className="tg-panelpic" src={TGPanel} alt="TGPanel" />
-                        <div className="TG">
-                        </div>
+                    <iframe width="412" height="302" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
 
                         <ol className="tg-steps">
                             <li>Press the Home button (the arrow pointing up) on the panel.</li>

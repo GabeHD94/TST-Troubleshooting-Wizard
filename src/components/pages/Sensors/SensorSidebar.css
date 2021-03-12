@@ -8,10 +8,12 @@
     font-weight: bold;
     font-size: small;
     color:white;
-    overflow-y: scroll;
     top: 0;
     height: 90vh;
+    overflow-y: scroll;
     bottom: 0;
+    
+    
 }
 
 .dw-sidebar-wrapper li{

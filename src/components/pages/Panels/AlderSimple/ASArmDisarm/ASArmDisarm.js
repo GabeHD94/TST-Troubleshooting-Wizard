@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import ASPanel from '../../../../../pictures/AS-Panel.png';
+
 // import TGArmDisarmSS from './TGArmDisarmSS'
 
 function ASArmDisarm() {
@@ -23,9 +23,9 @@ function ASArmDisarm() {
                         <h1>Arm/Disarm</h1>
                         <h3 className="alder-simple-mode">Overview</h3>
                     </div>
-                        <img className="alder-simple-panelpic" src={ASPanel} alt="TGPanel" />
-                        <div className="TG">
-                        </div>
+                    <iframe src="https://xd.adobe.com/embed/b6da5216-f35e-4c9c-4a59-64934ecae8a4-c0eb/?fullscreen" width="537" height="316" frameborder="0" allowfullscreen></iframe>
+                        <h4>Interactive</h4>
+
 
                         <ol className="alder-simple-steps">
                             <li>To arm the System to detect intrusions, ensure the System status field says, “Hey, I’m ready to arm.” Then arm the System in Stay Mode or Away Mode</li>
