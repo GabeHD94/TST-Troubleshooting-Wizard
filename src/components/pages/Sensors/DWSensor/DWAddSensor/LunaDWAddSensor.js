@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring';
 
 // import TGArmDisarmSS from './TGArmDisarmSS'
 
-function TGArmDisarm() {
+function LunaDWAddSensor() {
     // this animates whole component
     const props = useSpring({
         from: { opacity: 0, transform: "translateX(-50%)" },
@@ -57,4 +57,4 @@ function TGArmDisarm() {
     )
 }
 
-export default TGArmDisarm
+export default LunaDWAddSensor

@@ -27,6 +27,7 @@ function ASSystemInfo() {
                         <h4>Interactive</h4>
 
 
+
                         <ol className="alder-simple-steps">
                             <li>Press the Home button.</li>
                             <li>Press "Settings".</li>

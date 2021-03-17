@@ -1,7 +1,6 @@
 .dw-sidebar-wrapper {
     display: grid;
     background-color: #203647;
-    list-style: none;
     width: 280px;
     padding: 0px 10px 0px 10px;
     min-width: 15rem;
@@ -17,6 +16,8 @@
 }
 
 .dw-sidebar-wrapper li{
+    list-style: none;
+
     /* transition: 0.2s; */
     padding: 10px;
     border-radius: 25px;

@@ -75,3 +75,44 @@ h4 {
 .dw-headers h1 {
     margin-bottom: -2.5vh;
 }
+
+.OldDWS {
+    width: 28%;
+    height: 28%;
+}
+
+table, td, th {
+    margin: 20px;
+    padding: 5px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+.twogig-vector {
+    width: 530px;
+    height: 300px;
+    border: 10px solid white; 
+    transition: 0.3s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.twogig-vector:hover {
+    border: 10px solid rgb(0, 153, 255); 
+}
+
+.as-vector {
+    width: 530px;
+    height: 300px;
+    border: 10px solid white; 
+    transition: 0.3s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.as-vector:hover {
+    border: 10px solid rgb(0, 153, 255); 
+}
