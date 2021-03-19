@@ -1,7 +1,8 @@
 import React from 'react'
 import DWSidebar from './DWSidebar/DWSidebar';
 import DWAddSensorPath from './DWAddSensor/DWAddPath'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import DWLowBattPath from './DWLowBattery/DWBattPath'
+ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './DWSensor.css'
 import LunaDW from '../../../../pictures/AldersimpleDW.png'
 import OldDW from '../../../../pictures/OldDW.png'
@@ -15,7 +16,7 @@ function DWSensor() {
         leave: { opacity: 0, transform: "translateX(50%)" },
     })
 
-
+ 
     
     return (
         <div className="dw-sensor-wrapper">
@@ -24,7 +25,7 @@ function DWSensor() {
             <DWSidebar />
                 <Switch>
                     <Route path='/dw-sensor/add-sensor' component={DWAddSensorPath}/>
-
+                    <Route path='/dw-sensor/low-battery' component={DWLowBattPath}/>
                     <div className="dw-container">
                 <div className='dw-body'>
                     <animated.div style={props}>
@@ -32,9 +33,9 @@ function DWSensor() {
                         <h1>Door/Window Sensor</h1>
                         <h3 className="dw-mode">Overview</h3>
                     </div>
-                    <img className="DWPanel" src={LunaDW} alt="AlderDW"></img>
-                    <img className="OldDWS" src={OldDW} alt="OldDWSensor"></img>
-
+                    <img className="luna-dws" src={LunaDW} alt="AlderDW"></img>
+                    <img className="twogig-dws" src={OldDW} alt="OldDWSensor"></img>
+                    {/* <tbody> */}
                         <table>
                             <tr>
                                 <th>Luna Door/Window</th>
@@ -61,16 +62,11 @@ function DWSensor() {
                                 <td>2GIG Panel</td>
                             </tr>
                         </table>
-
-                                                    
-                        {/* <h2 className="tg-ss-mode" onClick={() => setMode(!mode)}>Step-by-Step Mode</h2> */}
+                        {/* </tbody>  */}
                     </animated.div>
                 </div>
-                {/* // : <TGArmDisarmSS />} */}
-                
         </div>
                 </Switch>
-
             </Router>
         </div> 
 

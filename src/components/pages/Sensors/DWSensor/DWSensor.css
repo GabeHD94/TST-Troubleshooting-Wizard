@@ -76,13 +76,20 @@ h4 {
     margin-bottom: -2.5vh;
 }
 
-.OldDWS {
-    width: 28%;
+.twogig-dws {
+    width: 27%;
+    height: 20%;
+    margin-left: 100px;
+}
+.luna-dws {
+    width: 38%;
     height: 28%;
 }
 
-table, td, th {
+tbody table, td, th {
     margin: 20px;
+    align-items: center;
+    align-content: center;
     padding: 5px;
 }
   
@@ -91,9 +98,10 @@ table {
     border-collapse: collapse;
   }
 
+
 .twogig-vector {
-    width: 530px;
-    height: 300px;
+    width: 430px;
+    height: 250px;
     border: 10px solid white; 
     transition: 0.3s;
     border-radius: 20px;
@@ -105,8 +113,8 @@ table {
 }
 
 .as-vector {
-    width: 530px;
-    height: 300px;
+    width: 410px;
+    height: 200px;
     border: 10px solid white; 
     transition: 0.3s;
     border-radius: 20px;
@@ -115,4 +123,13 @@ table {
 
 .as-vector:hover {
     border: 10px solid rgb(0, 153, 255); 
+}
+
+.subheader {
+    margin-top: 20px;
+}
+
+.equipment-pic {
+    width: 200px;
+    height: 300px;
 }
