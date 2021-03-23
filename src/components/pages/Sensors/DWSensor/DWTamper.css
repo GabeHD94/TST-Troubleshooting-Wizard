@@ -1,4 +1,62 @@
-/* .dw-sensor-wrapper {
+.sensor-container {
+  /* align-items: center; */
+  /* margin: auto; */
+  margin-top: 1vh;
+  color: rgb(85, 85, 85);
+
+
+  flex-wrap:wrap;
+  text-align:center;
+  margin:0rem auto 0rem auto;
+}
+.sensor-wrapper {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.sensor-steps-divider {
+  border-left: thin solid;
+  height: 400px;
+  margin-left: 20px;
+}
+
+.list-indent {
+  margin-left: 20px;
+}
+
+.sensor-steps {
+  font-size: 1em;
+  text-align: left;
+  margin: 20px 20px 20px 50px;
+  width: 30em;
+}
+
+.sensor-steps li {
+  margin: 8px;
+}
+
+.dw-steps { 
+    font-size: 1em;
+    text-align: left;
+    margin: 20px 20px 20px 50px;
+    width:30em;
+}
+
+h4 {
+    margin-bottom: -40px;
+}
+
+.dw-steps li{
+    margin: 8px;
+}
+
+
+
+/* go through the rest */
+
+
+.dw-sensor-wrapper {
     display: flex; 
     overflow:auto;
 
@@ -35,6 +93,9 @@ table {
     border-collapse: collapse;
   }
 
+
+
+/* path styles */
 
 .twogig-vector {
     width: 430px;
@@ -96,4 +157,4 @@ table {
 .twogig-btnhov:hover {
     border: 10px solid rgb(0, 153, 255); 
 }
-  */
+ 

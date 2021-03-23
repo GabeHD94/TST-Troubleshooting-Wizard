@@ -2,6 +2,7 @@ import React from 'react'
 import DWSidebar from './DWSidebar/DWSidebar';
 import DWAddSensorPath from './DWAddSensor/DWAddPath'
 import DWLowBattPath from './DWLowBattery/DWBattPath'
+import DWTamper from './DWTamper/DWTamper'
  import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './DWSensor.css'
 import LunaDW from '../../../../pictures/AldersimpleDW.png'
@@ -26,6 +27,7 @@ function DWSensor() {
                 <Switch>
                     <Route path='/dw-sensor/add-sensor' component={DWAddSensorPath}/>
                     <Route path='/dw-sensor/low-battery' component={DWLowBattPath}/>
+                    <Route path='/dw-sensor/tamper' component={DWTamper}/>
                     <div className="dw-container">
                 <div className='dw-body'>
                     <animated.div style={props}>

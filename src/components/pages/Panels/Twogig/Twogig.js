@@ -25,6 +25,7 @@ import TGProgrammingQ from './TGProgrammingQ/TGProgammingQ'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './Twogig.css'
+import '../Panels.css'
 
 function Twogig() {
 
