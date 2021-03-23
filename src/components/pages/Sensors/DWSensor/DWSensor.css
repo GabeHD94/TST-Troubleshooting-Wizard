@@ -1,8 +1,6 @@
 .dw-sensor-wrapper {
-    display: flex;
-
+    display: flex; 
     overflow:auto;
-    
 }
 
 .dw-sensor-wrapper p {
@@ -79,11 +77,12 @@ h4 {
 .twogig-dws {
     width: 27%;
     height: 20%;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 .luna-dws {
     width: 38%;
     height: 28%;
+    margin-left: -10px;
 }
 
 tbody table, td, th {
@@ -130,6 +129,36 @@ table {
 }
 
 .equipment-pic {
-    width: 200px;
-    height: 300px;
+    width: 20vh;
+    transition: 0.3s;
+}
+.equipment-pic-twogig {
+    width: 40vh;
+    transition: 0.3s;
+}
+
+.luna-btnhov{
+    width: 38%;
+    height: 28%;
+    margin-right: 100px;
+    margin-left: -20px;
+    border-radius: 20px;
+    border: 10px solid white;
+    transition: 0.3s;
+}
+
+.twogig-btnhov{
+    width: 27%;
+    height: 20%;
+    border-radius: 20px;
+    border: 10px solid white;
+    transition: 0.3s;
+}
+
+.luna-btnhov:hover {
+    border: 10px solid rgb(0, 153, 255); 
+}
+
+.twogig-btnhov:hover {
+    border: 10px solid rgb(0, 153, 255); 
 }

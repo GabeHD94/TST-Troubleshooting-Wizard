@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import DWLowBattLuna from '../DWLowBattery/DWLunaLowBattery';
-import DWLowBattTwogig from '../DWLowBattery/DWLunaLowBattery';
+import DWLowBattTwogig from '../DWLowBattery/DWTwogigLowBattery';
 import LunaDW from '../../../../../pictures/AldersimpleDW.png';
 import TwoGigDW from '../../../../../pictures/OldDW.png';
 
@@ -23,24 +23,28 @@ function DWBattPath() {
     return (
 
         <div className="dw-container">
-                        <Router>
+            <Router>
                 <Switch>
                     <Route path='/dw-sensor/low-battery/luna' component={DWLowBattLuna}  />
                     <Route path='/dw-sensor/low-battery/2gig' component={DWLowBattTwogig} />
+                    
                 <div className='dw-body'>
                     <animated.div style={props}>
                     <div className="dw-headers">
                         <h1>What sensor are they using?</h1>
                     </div>
                     <Link to='/dw-sensor/low-battery/luna' className='dw-bars' >
-                    <img className="luna-dws" src={LunaDW} alt="AlderDW"></img>
+                    <img className="luna-btnhov" src={LunaDW} alt="AlderDW"></img>
                     </Link>
                     <Link to='/dw-sensor/low-battery/2gig' className='dw-bars' >
-                    <img className="twogig-dws" src={TwoGigDW} alt="OldDWSensor" ></img>
+                    <img className="twogig-btnhov" src={TwoGigDW} alt="OldDWSensor" ></img>
                     </Link>
-                    <h3 className="subheader">Alder Simple Panel</h3>
-                    <h3>2GIG Panel</h3>
-
+                    <table>
+                            <tr>
+                                <th>Luna Door/Window</th>
+                                <th>2GIG Door/Window</th>
+                            </tr>
+                        </table>
                     </animated.div>
                 </div>
                 </Switch>

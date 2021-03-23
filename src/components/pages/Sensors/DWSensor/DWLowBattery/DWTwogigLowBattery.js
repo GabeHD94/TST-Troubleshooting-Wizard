@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import LunaLowBatt from '../../../../../pictures/luna-dw-battery.png'
+import TwogigLowBatt from '../../../../../pictures/2gig-dw-inside.png'
 
 
-function DWLunaLowBattery() {
+function DWTwogigLowBattery() {
     // this animates whole component
     const props = useSpring({
         from: { opacity: 0, transform: "translateX(-50%)" },
@@ -21,20 +21,19 @@ function DWLunaLowBattery() {
                         <h1>Low Battery</h1>
                         <h3 className="dw-mode">Overview</h3>
                     </div>
-                        <img className="equipment-pic" src={LunaLowBatt} alt="lunz batt"></img>
+                        <img className="equipment-pic-twogig" src={TwogigLowBatt} alt="luna batt"></img>
 
                         <ol className="dw-steps">
                             <li>Pull the sensor from the top, the back plate should still be stuck on the wall.</li>
                             <li>Carefully pull the sensor's chip out of the casing</li>
-                            <li>(Pictured above) The yellow circles represent guards that hold the battery (Battery type :CR-2032) in place</li>
-                            <li>Using an object with a point, push the battery out in the directions where there is no guard.</li>
-                            <li>Replace the batteries making sure that the batteries are facing the same way as they came out. </li>
+                            <li>You can now easilly remove and replace the 2 batteries (Battery type :CR-2032) in the sensor.</li>
+                            <li>Make sure that the batteries are facing the same way as they came out. </li>
+                            <li>Once replaced, put the sensor chip back in the casing and attach again to the back plate.</li>
                         </ol>
                     </animated.div>
                 </div>
-                
         </div>
     )
 }
 
-export default DWLunaLowBattery
+export default DWTwogigLowBattery
