@@ -15,34 +15,26 @@ function ASVolume() {
 
     return (
 
-        <div className="alder-simple-container">
-            {/* {mode ? */}
-                <div className='alder-simple-body'>
-                    <animated.div style={props}>
-                    <div className="alder-simple-headers">
-                        <h1>Volume</h1>
-                        <h3 className="alder-simple-mode">Overview</h3>
-                    </div>
+        <animated.div className="panel-container" style={props}>
+            <h1>Volume</h1>
+            <div className="panel-wrapper">
+                <div>
                     <iframe src="https://xd.adobe.com/embed/b6da5216-f35e-4c9c-4a59-64934ecae8a4-c0eb/?fullscreen" width="537" height="316" frameborder="0" allowfullscreen></iframe>
-                        <h4>Interactive</h4>
-
-
-                        <ol className="alder-simple-steps">
-                            <li>Press the Home button.</li>
-                            <li>Press "Settings" in the top-right corner.</li>
-                            <li>Enter the Master Code.</li>
-                            <li>Press "System".</li>
-                            <li>Press "Sounds".</li>
-                            <li>Change the panel volume by using the "+"(plus) and "-"(minus) buttons to the right of "Panel Volume".</li>
-                            <li>Change the touch screen volume by using the "+"(plus) and "-"(minus) buttons to the right of "Toush Screen Volume".</li>
-                           
-                        </ol>
-                        {/* <h2 className="tg-ss-mode" onClick={() => setMode(!mode)}>Step-by-Step Mode</h2> */}
-                    </animated.div>
+                    <h4>Interactive</h4>
                 </div>
-                {/* : <TGArmDisarmSS />} */}
-                
-        </div>
+                <div className="panel-steps-divider">
+                </div>
+                <ol className="panel-steps">
+                    <li>Press the Home button.</li>
+                    <li>Press "Settings" in the top-right corner.</li>
+                    <li>Enter the Master Code.</li>
+                    <li>Press "System".</li>
+                    <li>Press "Sounds".</li>
+                    <li>Change the panel volume by using the "+"(plus) and "-"(minus) buttons to the right of "Panel Volume".</li>
+                    <li>Change the touch screen volume by using the "+"(plus) and "-"(minus) buttons to the right of "Toush Screen Volume".</li>
+                </ol>
+            </div>
+        </animated.div>
     )
 }
 

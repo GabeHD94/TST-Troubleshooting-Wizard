@@ -14,32 +14,29 @@ function TGPanelLowBatt() {
 
     return (
 
-        <div className="tg-container">
-            {/* {mode ? */}
-                <div className='tg-body'>
-                    <animated.div style={props}>
-                    <div className="tg-headers">
-                        <h1>Panel Low Battery</h1>
-                        <h3 className="tg-mode">Overview</h3>
-                    </div>
-                        <img className="tg-panelpic" src={TGLowBattery} alt="TGPanel" />
+        <animated.div className="panel-container" style={props}>
+            <h1>Panel Low Battery</h1>
+            <div className="panel-wrapper">
+                <div>
+                    <h4>Interactive</h4>
+                    <iframe width="512" height="402" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
 
-                        <ol className="tg-steps">
-                            <li>Check the top right corner of the screen on the panel. There will be an icon of a plug. Verify there is not a red X on the icon.</li>
-                            <li>Ask the customer how long their panel has said "Low Battery".
-                    <ul className="list-indent">
-                                    <li>If it has been 2 days or less, let them know it will take a few days to fully recharge the panel.</li>
-                                    <li>If it has been 3 days or more, send a hard reset.</li>
-                                </ul>
-                            </li>
-                            <li>Check the back of the panel. Verify that the battery is plugged in.</li>
-                        </ol>
-                        {/* <h2 className="tg-ss-mode" onClick={() => setMode(!mode)}>Step-by-Step Mode</h2> */}
-                    </animated.div>
+
                 </div>
-                {/* // : <TGArmDisarmSS />} */}
-                
-        </div>
+                <div className="panel-steps-divider">
+                </div>
+                <ol className="panel-steps">
+                    <li>Check the top right corner of the screen on the panel. There will be an icon of a plug. Verify there is not a red X on the icon.</li>
+                    <li>Ask the customer how long their panel has said "Low Battery".
+                    <ul className="list-indent">
+                            <li>If it has been 2 days or less, let them know it will take a few days to fully recharge the panel.</li>
+                            <li>If it has been 3 days or more, send a hard reset.</li>
+                        </ul>
+                    </li>
+                    <li>Check the back of the panel. Verify that the battery is plugged in.</li>
+                </ol>
+            </div>
+        </animated.div>
     )
 
 }

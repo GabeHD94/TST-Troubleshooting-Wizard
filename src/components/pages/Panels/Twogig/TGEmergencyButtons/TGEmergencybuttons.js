@@ -13,42 +13,40 @@ function TGEmergencyButtons() {
 
     return (
 
-        <div className="tg-container">
-            {/* {mode ? */}
-            <div className='tg-body'>
-                <animated.div style={props}>
-                    <div className="tg-headers">
-                        <h1>Emergency Buttons</h1>
-                        <h3 className="tg-mode">Overview</h3>
-                    </div>
-                    <iframe width="412" height="302" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
 
+        <animated.div className="panel-container" style={props}>
+            <h1>Emergency Buttons</h1>
+            <div className="panel-wrapper">
 
-                    <ol className="tg-steps">
-                        <li>Press the Emergency button ("+") on the panel.</li>
-                        <li>Press and hold "panic", "fire", or "emergency" for 2 seconds to activate the alarm.</li>
-                        <li>Panic:
-                    <ul className="list-indent">
-                                <li>The Panic (or police) button sends an immediate panic report to the Central Station. During installation, the installer either set the system to sound the siren when the button is pressed, or to not sound the siren, but to trigger a silent alarm.</li>
-                            </ul>
-                        </li>
-                        <li>Fire:
-                    <ul className="list-indent">
-                                <li>The Fire button sends an immediate fire report to the Central Station. The Control Panel sounds the fire horn when the button is pressed.</li>
-                            </ul>
-                        </li>
-                        <li>Emergency:
-                    <ul className="list-indent">
-                                <li>The Emergency button sends an immediate report to the Central Station. The Control Panel sounds the siren when the emergency button is pressed.</li>
-                            </ul>
-                        </li>
-                    </ol>
-                    {/* <h2 className="tg-ss-mode" onClick={() => setMode(!mode)}>Step-by-Step Mode</h2> */}
-                </animated.div>
+                <div>
+                    <h4>Interactive</h4>
+                    <iframe width="512" height="402" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
+                </div>
+
+                <div className="panel-steps-divider">
+                </div>
+
+                <ol className="panel-steps">
+                    <li>Press the Emergency button ("+") on the panel.</li>
+                    <li>Press and hold "panic", "fire", or "emergency" for 2 seconds to activate the alarm.</li>
+                    <li>Panic:
+                     <ul className="list-indent">
+                            <li>The Panic (or police) button sends an immediate panic report to the Central Station. During installation, the installer either set the system to sound the siren when the button is pressed, or to not sound the siren, but to trigger a silent alarm.</li>
+                        </ul>
+                    </li>
+                    <li>Fire:
+                     <ul className="list-indent">
+                            <li>The Fire button sends an immediate fire report to the Central Station. The Control Panel sounds the fire horn when the button is pressed.</li>
+                        </ul>
+                    </li>
+                    <li>Emergency:
+                     <ul className="list-indent">
+                            <li>The Emergency button sends an immediate report to the Central Station. The Control Panel sounds the siren when the emergency button is pressed.</li>
+                        </ul>
+                    </li>
+                </ol>
             </div>
-            {/* // : <TGArmDisarmSS />} */}
-
-        </div>
+        </animated.div>
     )
 
 }
