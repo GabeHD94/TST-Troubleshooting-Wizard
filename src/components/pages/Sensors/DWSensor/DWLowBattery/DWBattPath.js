@@ -7,7 +7,8 @@ import DWLowBattTwogig from '../DWLowBattery/DWTwogigLowBattery';
 import LunaDW from '../../../../../pictures/AldersimpleDW.png';
 import TwoGigDW from '../../../../../pictures/OldDW.png';
 
-import '../DWSensor.css'
+import '../../Sensors.css'
+
 
 // import TGArmDisarmSS from './TGArmDisarmSS'
 

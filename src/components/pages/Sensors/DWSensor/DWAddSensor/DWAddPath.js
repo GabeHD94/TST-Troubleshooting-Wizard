@@ -7,7 +7,7 @@ import DWAddSensorTwogig from '../DWAddSensor/TwogigDWAddSensor';
 import ASVector from '../../../../../pictures/ASVector.png';
 import TwoGigVector from '../../../../../pictures/2GIGVector.png';
 
-import '../DWSensor.css'
+import '../../Sensors.css'
 
 // import TGArmDisarmSS from './TGArmDisarmSS'
 

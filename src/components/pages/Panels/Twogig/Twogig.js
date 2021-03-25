@@ -24,14 +24,14 @@ import TGProgrammingQ from './TGProgrammingQ/TGProgammingQ'
 
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './Twogig.css'
+// import './Twogig.css'
 import '../Panels.css'
 
 function Twogig() {
 
     
     return (
-        <div className="twogig-wrapper">
+        <div className="alder-simple-wrapper">
             <Router>
             <TwogigSidebar />
                 <Switch>
@@ -58,7 +58,7 @@ function Twogig() {
                     <Route path='/2gig/panel-lowbatt' component={TGPanelLowBatt}/>
                     <Route path='/2gig/programming-questions' component={TGProgrammingQ}/>
 
-                    <p className="tg-placeholder">2GIG Panel</p>
+                    <p>2GIG Panel</p>
                 </Switch>
 
             </Router>

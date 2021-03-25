@@ -15,7 +15,7 @@ import ASResetPanel from './ASResetPanel/ASResetPanel'
 import ASPanelCommFailure from './ASPanelCommFailure/ASPanelCommFailure'
 import ASPowerFailure from './ASPowerFailure/ASPowerFailure'
 import ASPanelLowBatt from './ASPanelLowBatt/ASPanelLowBatt'
-import './AlderSimple.css'
+import '../Panels.css'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 

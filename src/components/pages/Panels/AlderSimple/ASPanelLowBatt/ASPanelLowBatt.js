@@ -28,7 +28,7 @@ function ASPanelCommFailure() {
                 <ol className="panel-steps">
                     <li>When a fire alarm is triggered on an Alder Simple panel, sometimes the panel will continue to siren even after the panel has been disarmed.</li>
                     <li>Reset the panel by pressing and holding the Home and the Phone button at the same time and enter the Master Code when prompted.</li>
-                </ol>
+                </ol> 
             </div>
         </animated.div>
     )

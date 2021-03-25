@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import LunaLowBatt from '../../../../../pictures/luna-dw-battery.png'
-import '../DWTamper.css'
+import '../../Sensors.css'
+
 
 
 

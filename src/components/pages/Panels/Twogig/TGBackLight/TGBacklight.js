@@ -21,8 +21,8 @@ function TGBacklight() {
             <div className="panel-wrapper">
 
                 <div>
-                    <h4>Interactive</h4>
                     <iframe width="512" height="402" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
+                    <h4>Interactive</h4>
                 </div>
 
                 <div className="panel-steps-divider">

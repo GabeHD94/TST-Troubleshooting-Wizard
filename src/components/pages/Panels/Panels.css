@@ -1,3 +1,12 @@
+.alder-simple-wrapper {
+  display: flex;
+}
+
+.twogig-wrapper {
+  display: flex;
+}
+
+
 .panel {
   display: flex;
   overflow: auto;
@@ -37,5 +46,16 @@
 
 .panel-head {
   margin-top: -20vh;
+}
+
+.alder-simple-wrapper p {
+  color: rgb(167, 167, 167);
+  align-items: center;
+  text-align: center;
+  font-weight:400;
+  font-size: 50px;
+  padding-top: 300px;
+  min-width: 100rem;
+  min-height: 10rem;
 }
 

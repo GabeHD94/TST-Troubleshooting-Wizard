@@ -1,5 +1,5 @@
 import React from 'react'
-import '../DWTamper.css'
+import '../../Sensors.css'
 import { useSpring, animated } from 'react-spring';
 
 
@@ -19,13 +19,22 @@ function DWTamper() {
             <iframe src="https://xd.adobe.com/embed/b6da5216-f35e-4c9c-4a59-64934ecae8a4-c0eb/?fullscreen" title="tamper" width="637" height="416" frameborder="0" allowfullscreen></iframe>
             <div className="sensor-steps-divider">
             </div>
-            <ol className="sensor-steps">
-                <li>Pull the sensor from the top, the back plate should still be stuck on the wall.</li>
-                <li>Carefully pull the sensor's chip out of the casing</li>
-                <li>(Pictured above) The yellow circles represent guards that hold the battery (Battery type :CR-2032) in place</li>
-                <li>Using an object with a point, push the battery out in the directions where there is no guard.</li>
-                <li>Replace the batteries making sure that the batteries are facing the same way as they came out. </li>
-            </ol>
+            <ol className="panel-steps">
+                    <li>Remove the sensor from its mount </li>
+                    <li>Test if the Tamper Switch is working properly by manually holding down the Tamper Switch
+                    <ul className="list-indent">
+                            <li>While pressed down the ‘Tamper’ Signal should clear</li>
+                            <li>When the Tamper Switch is released a new ‘Tamper’ Signal should send</li>
+                            <li>If the Tamper Switch is not working properly, Replace the Sensor.</li>
+                        </ul>
+                    </li>
+                    <li>Place the Sensor back on its mount
+                    <ul className="list-indent">
+                            <li>If the Sensor is on securely the ‘Tamper’ Signal should clear</li>
+                            <li>If the ‘Tamper’ Signal does not clear, make sure the sensor is on its mount securely; if the ‘Tamper’ Signal still does not clear, Replace the Sensor</li>
+                        </ul>
+                    </li>
+                </ol>
         </div>
         </animated.div>
 

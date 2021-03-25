@@ -34,10 +34,12 @@ function Home() {
                         Alder Simple Door/Window Sensor
                 </li>
                 </Link>
+                <Link to='/motion' className='common-bars' >
                 <li className='common-links'>
                         <img src = {Motionsvg} alt='motion-detector' height="87" width="87"></img>
                         Alder Simple Motion Detector
                 </li>
+                </Link>
                 <li className='common-links'>
                     <img src = {Glassbreaksvg} alt='glass-break' height="87" width="87"></img>
                         Alder Simple Glass Break Detector

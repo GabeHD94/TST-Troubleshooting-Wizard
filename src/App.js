@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Twogig from './components/pages/Panels/Twogig/Twogig'
 import AlderSimple from './components/pages/Panels/AlderSimple/AlderSimple'
 import DWSensor from './components/pages/Sensors/DWSensor/DWSensor'
+import MotionDetectors from './components/pages/Sensors/MotionDetectors/MotionDetector'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path='/2gig' component={Twogig}/>
         <Route path='/alder-simple' component={AlderSimple}/>
         <Route path='/dw-sensor' component={DWSensor}/>
+        <Route path='/motion' component={MotionDetectors}/>
       </Switch>
     </Router>
   );
