@@ -39,8 +39,8 @@ function DWSensor() {
                         <h1>Door/Window Sensor</h1>
                         <h3 className="dw-mode">Overview</h3>
                     </div>
-                    <img className="luna-dws" src={LunaDW} alt="AlderDW"></img>
-                    <img className="twogig-dws" src={OldDW} alt="OldDWSensor"></img>
+                    <img className="luna-table" src={LunaDW} alt="AlderDW"></img>
+                    <img className="twogig-table" src={OldDW} alt="OldDWSensor"></img>
                     {/* <tbody> */}
                         <table>
                             <tr>

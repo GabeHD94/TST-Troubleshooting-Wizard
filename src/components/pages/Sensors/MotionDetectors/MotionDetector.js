@@ -1,10 +1,10 @@
 import React from 'react'
 import MotionSidebar from '../MotionDetectors/MotionSidebar/MotionSidebar';
  import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+ import MotionAddPath from './MotionAdd/MotionAddPath'
 import '../Sensors.css'
 import TwogigMotion from '../../../../pictures/2gig-motion.png'
 import ASMotion from '../../../../pictures/as-motion.png'
-import OldDW from '../../../../pictures/OldDW.png'
 import { useSpring, animated } from 'react-spring';
 
 
@@ -23,6 +23,11 @@ function DWSensor() {
             <Router>
             <MotionSidebar />
                 <Switch>
+                <Route path='/motion/add-sensor' component={MotionAddPath}/>
+                    {/* <Route path='/motion/low-battery' component={DWLowBattPath}/>
+                    <Route path='/motion/tamper' component={DWTamper}/>
+                    <Route path='/motion/loss-supervision' component={DWLossSupervision}/>
+                    <Route path='/motion/false-alarm' component={DWFalseAlarm}/> */}
 
                     <div className="dw-container">
                 <div className='dw-body'>
@@ -31,8 +36,9 @@ function DWSensor() {
                         <h1>Motion Detector</h1>
                         <h3 className="dw-mode">Overview</h3>
                     </div>
-                    <img className="luna-dws" src={ASMotion} alt="asmotion"></img>
-                    <img className="twogig-dws" src={TwogigMotion} alt="twogigmotion"></img>
+                    <div className="sensor-table">
+                    <img className="luna-table" src={ASMotion} alt="asmotion"></img>
+                    <img className="twogig-table" src={TwogigMotion} alt="twogigmotion"></img>
                     {/* <tbody> */}
                         <table>
                             <tr>
@@ -44,8 +50,8 @@ function DWSensor() {
                                 <th>Battery type</th>
                             </tr>
                             <tr>
-                                <td>2x CR-2032</td>
-                                <td>2x CR-2032</td>
+                                <td>CR123A</td>
+                                <td>CR123A</td>
                             </tr>
                             <tr>
                                 <th>Compatibility</th>
@@ -60,6 +66,7 @@ function DWSensor() {
                                 <td>2GIG Panel</td>
                             </tr>
                         </table>
+                        </div>
                         {/* </tbody>  */}
                     </animated.div>
                 </div>
