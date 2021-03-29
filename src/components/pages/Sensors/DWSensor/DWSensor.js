@@ -26,6 +26,7 @@ function DWSensor() {
 
             <Router>
             <DWSidebar />
+            <h1>hi</h1>
                 <Switch>
                     <Route path='/dw-sensor/add-sensor' component={DWAddSensorPath}/>
                     <Route path='/dw-sensor/low-battery' component={DWLowBattPath}/>
@@ -78,5 +79,6 @@ function DWSensor() {
 
     )
 }
+
 
 export default DWSensor
