@@ -23,7 +23,7 @@ function DWBattPath() {
 
     return (
 
-        <div className="dw-container">
+        <div className="sensor-body-container">
             <Router>
                 <Switch>
                     <Route path='/dw-sensor/low-battery/luna' component={DWLowBattLuna}  />

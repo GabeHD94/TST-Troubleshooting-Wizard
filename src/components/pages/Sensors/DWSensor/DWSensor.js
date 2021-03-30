@@ -22,26 +22,25 @@ function DWSensor() {
  
     
     return (
-        <div className="dw-sensor-wrapper">
+        <div className="parent-sensor-container">
 
             <Router>
             <DWSidebar />
-            <h1>hi</h1>
                 <Switch>
                     <Route path='/dw-sensor/add-sensor' component={DWAddSensorPath}/>
                     <Route path='/dw-sensor/low-battery' component={DWLowBattPath}/>
                     <Route path='/dw-sensor/tamper' component={DWTamper}/>
                     <Route path='/dw-sensor/loss-supervision' component={DWLossSupervision}/>
                     <Route path='/dw-sensor/false-alarm' component={DWFalseAlarm}/>
-                    <div className="dw-container">
+                    <div className="sensor-body-container">
                 <div className='dw-body'>
                     <animated.div style={props}>
                     <div className="dw-headers">
                         <h1>Door/Window Sensor</h1>
                         <h3 className="dw-mode">Overview</h3>
                     </div>
-                    <img className="luna-table" src={LunaDW} alt="AlderDW"></img>
-                    <img className="twogig-table" src={OldDW} alt="OldDWSensor"></img>
+                    <img className="twogig-dws" src={LunaDW} alt="AlderDW"></img>
+                    <img className="luna-dws" src={OldDW} alt="OldDWSensor"></img>
                     {/* <tbody> */}
                         <table>
                             <tr>
@@ -79,6 +78,5 @@ function DWSensor() {
 
     )
 }
-
 
 export default DWSensor
