@@ -17,27 +17,27 @@ function DWSidebar() {
             <ul className='dw-bu-wrapper'>
             <h1>Door/Window Sensor</h1>
                 <h2>Troubleshooting</h2>
-                <Link to='/dw-sensor/add-sensor' className='dw-bars' >
+                <Link to='/dw-sensor/add-sensor' className='sidebar-bars' >
                     <li>
                         Add Sensor
                     </li>
                 </Link>
-                <Link to='/dw-sensor/low-battery' className='dw-bars' >
+                <Link to='/dw-sensor/low-battery' className='sidebar-bars' >
                     <li>
                         Low Battery
                     </li>
                 </Link>
-                <Link to='/dw-sensor/tamper' className='dw-bars' >
+                <Link to='/dw-sensor/tamper' className='sidebar-bars' >
                     <li>
                         Tamper
                     </li>
                 </Link>
-                <Link to='/dw-sensor/loss-supervision' className='dw-bars' >
+                <Link to='/dw-sensor/loss-supervision' className='sidebar-bars' >
                     <li>
                         Loss of supervision
                     </li>
                 </Link>
-                <Link to='/dw-sensor/false-alarm' className='dw-bars' >
+                <Link to='/dw-sensor/false-alarm' className='sidebar-bars' >
                     <li>
                         False Alarm
                     </li>

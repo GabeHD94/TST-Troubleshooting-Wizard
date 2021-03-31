@@ -17,27 +17,27 @@ function MotionSidebar() {
             <ul className='dw-bu-wrapper'>
             <h1>Motion Detector</h1>
                 <h2>Troubleshooting</h2>
-                <Link to='/motion/add-sensor' className='dw-bars' >
+                <Link to='/motion/add-sensor' className='sidebar-bars' >
                     <li>
                         Add Sensor
                     </li>
                 </Link>
-                <Link to='/motion/low-battery' className='dw-bars' >
+                <Link to='/motion/low-battery' className='sidebar-bars' >
                     <li>
                         Low Battery
                     </li>
                 </Link>
-                <Link to='/motion/tamper' className='dw-bars' >
+                <Link to='/motion/tamper' className='sidebar-bars' >
                     <li>
                         Tamper
                     </li>
                 </Link>
-                <Link to='/motion/loss-supervision' className='dw-bars' >
+                <Link to='/motion/loss-supervision' className='sidebar-bars' >
                     <li>
                         Loss of supervision
                     </li>
                 </Link>
-                <Link to='/motion/false-alarm' className='dw-bars' >
+                <Link to='/motion/false-alarm' className='sidebar-bars' >
                     <li>
                         False Alarm
                     </li>
@@ -48,7 +48,7 @@ function MotionSidebar() {
             </ul>
             &nbsp;
 
-        </div>
+        </div>  
         </animated.div>
     )
 }

@@ -34,10 +34,10 @@ function DWBattPath() {
                     <div className="dw-headers">
                         <h1>What sensor are they using?</h1>
                     </div>
-                    <Link to='/dw-sensor/low-battery/luna' className='dw-bars' >
+                    <Link to='/dw-sensor/low-battery/luna'  >
                     <img className="luna-btnhov" src={LunaDW} alt="AlderDW"></img>
                     </Link>
-                    <Link to='/dw-sensor/low-battery/2gig' className='dw-bars' >
+                    <Link to='/dw-sensor/low-battery/2gig'  >
                     <img className="twogig-btnhov" src={TwoGigDW} alt="OldDWSensor" ></img>
                     </Link>
                     <table>

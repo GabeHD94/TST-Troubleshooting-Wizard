@@ -1,24 +1,24 @@
-.twogig-vector {
-    width: 400px;
+.twogig-motion-vector {
+    width: 160px;
     border: 10px solid white;
     transition: 0.3s;
     border-radius: 20px;
     cursor: pointer;
   }
   
-  .twogig-vector:hover {
+  .twogig-motion-vector:hover {
     border: 10px solid rgb(0, 153, 255);
   }
   
-  .as-vector {
-    width: 400px;
+  .as-motion-vector {
+    width: 200px;
     border: 10px solid white;
     transition: 0.3s;
     border-radius: 20px;
     cursor: pointer;
   }
   
-  .as-vector:hover {
+  .as-motion-vector:hover {
     border: 10px solid rgb(0, 153, 255);
   }
   

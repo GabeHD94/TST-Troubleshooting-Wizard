@@ -8,6 +8,7 @@ import ASVector from '../../../../../pictures/ASVector.png';
 import TwoGigVector from '../../../../../pictures/2GIGVector.png';
 
 import '../../Sensors.css'
+import './DWAddSensorPath.css'
 
 // import TGArmDisarmSS from './TGArmDisarmSS'
 
@@ -27,22 +28,18 @@ function DWAddPath() {
                 <Switch>
                     <Route path='/dw-sensor/add-sensor/luna' component={DWAddSensorLuna} />
                     <Route path='/dw-sensor/add-sensor/2gig' component={DWAddSensorTwogig} />
-                    {/* <div className='dw-body'> */}
                         <animated.div style={props}>
-                            {/* <div className="dw-headers"> */}
                                 <h1>What panel are they using?</h1>
-                            {/* </div> */}
                             <h3 className="subheader">Alder Simple Panel</h3>
-                            <Link to='/dw-sensor/add-sensor/luna' className='dw-bars' >
+                            <Link to='/dw-sensor/add-sensor/luna' >
                                 <img className="as-vector" src={ASVector} alt="AlderDW"></img>
                             </Link>
                             <h3>2GIG Panel</h3>
-                            <Link to='/dw-sensor/add-sensor/2gig' className='dw-bars' >
+                            <Link to='/dw-sensor/add-sensor/2gig' >
                                 <img className="twogig-vector" src={TwoGigVector} alt="OldDWSensor" ></img>
                             </Link>
 
                         </animated.div>
-                    {/* </div> */}
                 </Switch>
             </Router>
         </div>

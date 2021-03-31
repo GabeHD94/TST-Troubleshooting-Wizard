@@ -22,18 +22,16 @@ function MotionDetector() {
             <Router>
                 <MotionSidebar />
                 <Switch>
-                <Route path='/motion/add-sensor' component={AddMotionPath}/>
+                    <Route path='/motion/add-sensor' component={AddMotionPath} />
 
 
                     <div className="sensor-body-container">
-                        {/* <div className='dw-body'> */}
                         <animated.div style={props}>
-                            {/* <div className="dw-headers"> */}
                             <h1>Motion Detector</h1>
                             <h3 >Overview</h3>
-                            {/* </div> */}
-                            <img className="luna-dws" src={ASMotion} alt="asmotion"></img>
-                            <img className="twogig-dws" src={TwogigMotion} alt="twogigmotion"></img>
+                            {/* this is the same className as the images for the dw sensor */}
+                            <img className="twogig-dws" src={ASMotion} alt="asmotion"></img>
+                            <img className="luna-dws" src={TwogigMotion} alt="twogigmotion"></img>
                             {/* <tbody> */}
                             <table>
                                 <tr>
