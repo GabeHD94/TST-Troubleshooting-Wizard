@@ -42,9 +42,6 @@ function MotionSidebar() {
                         False Alarm
                     </li>
                 </Link>
-
-
-                    
             </ul>
             &nbsp;
 
