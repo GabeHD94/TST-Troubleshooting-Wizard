@@ -7,7 +7,7 @@ import AlarmcomMotion from '../../../../../../pictures/alarmcom-logo.png'
 import TwogigPanel from '../../../../../../pictures/2GIG-Panel.png'
 import ASPanel from '../../../../../../pictures/AS-Panel.png'
 import AddASMotion from './AddAsMotion'
-import AddTwogigMotion from '../Twogig-Motion/AddTwogigMotion'
+import AddTwogigMotion from '../AS-Motion/AddASMotionTGPanel'
 
 import '../AddMotionPath.css'
 
@@ -18,12 +18,12 @@ function MotionHowToAdd() {
         leave: { opacity: 0, transform: "translateX(30%)" },
     })
     return (
-        <animated.div style={props}>
-            <h1>How is the sensor being added?</h1>
-            <Router>
-                <Switch>
-                    <Route path='/motion/add-sensor/luna-motion/as-panel-add' component={AddASMotion} />
-                    <Route path='/motion/add-sensor/2gig-motion/twogig-panel-add' component={AddTwogigMotion} />
+        <Router>
+            <Switch>
+                <Route path='/motion/add-sensor/luna-motion/as-panel-add' component={AddASMotion} />
+                <Route path='/motion/add-sensor/luna-motion/twogig-panel-add' component={AddTwogigMotion} />
+                <animated.div style={props}>
+                    <h1>How is the sensor being added?</h1>
                     <div className="waytoadd">
                         <Link to='/motion/add-sensor/luna-motion/as-panel-add'>
                             <img className="add-logos" src={ASPanel} alt="AlderASpanel"></img>
@@ -38,10 +38,9 @@ function MotionHowToAdd() {
                             <img className="add-logos" src={AlarmcomMotion} alt="AlarmLink"></img>
                         </Link>
                     </div>
-                </Switch>
-            </Router>
-        </animated.div>
-
+                </animated.div>
+            </Switch>
+        </Router>
     )
 }
 

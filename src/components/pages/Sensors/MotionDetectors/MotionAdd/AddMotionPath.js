@@ -36,7 +36,6 @@ function AddMotionPath() {
                         <Link to='/motion/add-sensor/2gig-motion'>
                             <img className="twogig-motion-vector" src={TwogigMotion} alt="OldDWSensor" ></img>
                         </Link>
-
                     </animated.div>
                 </Switch>
             </Router>
