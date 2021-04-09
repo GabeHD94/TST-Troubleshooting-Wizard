@@ -2,8 +2,7 @@ import React from 'react'
 import { useSpring, animated } from 'react-spring';
 
 
-
-function AddAsMotion() {
+function AddTwogigMotionAS() {
     const props = useSpring({
         from: { opacity: 0, transform: "translateX(-15%)" },
         to: { opacity: 1, transform: "translateX(0%)" },
@@ -31,5 +30,4 @@ function AddAsMotion() {
     )
 }
 
-export default AddAsMotion
- 
+export default AddTwogigMotionAS

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import '../../Sensors.css'
 import './AddMotionPath.css'  
 import ASMotionAddWay from './AS-Motion/AsMotionAddWay'
-import TwogigMotionAddWay from '../MotionAdd/Twogig-Motion/AddTwogigMotion'
+import TwogigMotionAddWay from '../MotionAdd/Twogig-Motion/AddTwogigMotionAddWay'
 import TwogigMotion from '../../../../../pictures/2gig-motion.png'
 import ASMotion from '../../../../../pictures/as-motion.png'
 
