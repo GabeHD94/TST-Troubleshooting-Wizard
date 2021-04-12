@@ -13,18 +13,12 @@ function DWTwogigLowBattery() {
 
 
     return (
-
-
-
         <animated.div className="sensor-container" style={props}>
             <h1>Low Battery</h1>
             <div className="sensor-wrapper">
                 <img className="equipment-pic-twogig" src={TwogigLowBatt} alt="luna batt"></img>
-
-
                 <div className="sensor-steps-divider">
                 </div>
-
                 <ol className="dw-steps">
                     <li>Pull the sensor from the top, the back plate should still be stuck on the wall.</li>
                     <li>Carefully pull the sensor's chip out of the casing</li>

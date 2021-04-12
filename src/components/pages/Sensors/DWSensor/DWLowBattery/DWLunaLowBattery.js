@@ -33,7 +33,6 @@ function DWLunaLowBattery() {
                 </ol>
             </div>
         </animated.div>
-
     )
 }
 

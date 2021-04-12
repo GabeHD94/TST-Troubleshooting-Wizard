@@ -1,23 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react'
 import { useSpring, animated } from 'react-spring';
 
-// import TGArmDisarmSS from './TGArmDisarmSS'
 
-function LunaDWAddSensor() {
-    // this animates whole component
+function AddAsMotionSecureNet() {
     const props = useSpring({
-        from: { opacity: 0, transform: "translateX(-50%)" },
+        from: { opacity: 0, transform: "translateX(-15%)" },
         to: { opacity: 1, transform: "translateX(0%)" },
-        leave: { opacity: 0, transform: "translateX(50%)" },
+        leave: { opacity: 0, transform: "translateX(30%)" },
     })
-    // const [mode, setMode] = useState(true)
-
-
     return (
 
-
         <animated.div className="sensor-container" style={props}>
-            <h1>Add Sensor</h1>
+            <h1>Adding Sensor(SecureNet)</h1>
             <div className="sensor-wrapper">
                 <div>
                     <h4>Interactive</h4>
@@ -52,4 +46,4 @@ function LunaDWAddSensor() {
     )
 }
 
-export default LunaDWAddSensor
+export default AddAsMotionSecureNet

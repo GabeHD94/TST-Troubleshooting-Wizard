@@ -9,6 +9,7 @@ import ASPanel from '../../../../../../pictures/AS-Panel.png'
 import AddASMotion from './AddAsMotion'
 import AddTwogigASMotion from '../AS-Motion/AddASMotionTGPanel'
 import AddAlarmcomASMotion from '../AS-Motion/AddAsMotionAlarmcom'
+import AddSecurenetASMotion from '../AS-Motion/AddAsMotionSecureNet'
 
 import '../AddMotionPath.css'
 
@@ -24,6 +25,7 @@ function MotionHowToAdd() {
                 <Route path='/motion/add-sensor/luna-motion/as-panel-add' component={AddASMotion} />
                 <Route path='/motion/add-sensor/luna-motion/twogig-panel-add' component={AddTwogigASMotion} />
                 <Route path='/motion/add-sensor/luna-motion/alarmcom-add' component={AddAlarmcomASMotion} />
+                <Route path='/motion/add-sensor/luna-motion/securenet-add' component={AddSecurenetASMotion} />
                 <animated.div style={props}>
                     <h1>How is the sensor being added?</h1>
                     <div className="waytoadd">
@@ -33,7 +35,7 @@ function MotionHowToAdd() {
                         <Link to='/motion/add-sensor/luna-motion/twogig-panel-add'>
                             <img className="add-logos-twogig" src={TwogigPanel} alt="Twogigpanel" ></img>
                         </Link>
-                        <Link to='/motion/add-sensor/luna-motion/securenet'>
+                        <Link to='/motion/add-sensor/luna-motion/securenet-add'>
                             <img className="add-logos" src={SecurenetMotion} alt="SecurenetLink"></img>
                         </Link>
                         <Link to='/motion/add-sensor/luna-motion/alarmcom-add'>
