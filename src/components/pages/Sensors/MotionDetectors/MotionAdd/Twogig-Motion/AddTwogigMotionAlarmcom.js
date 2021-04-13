@@ -8,6 +8,7 @@ function AddTwogigMotionAlarmcom() {
         to: { opacity: 1, transform: "translateX(0%)" },
         leave: { opacity: 0, transform: "translateX(30%)" },
     })
+
     return (
         <animated.div className="sensor-container" style={props}>
             <h1>Adding Sensor</h1>

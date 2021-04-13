@@ -10,7 +10,7 @@ function AddASMotionTGPanel() {
     })
     return (
         <animated.div className="sensor-container" style={props}>
-            <h1>Adding Sensor</h1>
+            <h1>Adding Sensor </h1>
             <div className="sensor-wrapper">
                 <iframe width="512" height="402" src="https://xd.adobe.com/embed/b258dd1a-ea8d-4e73-6266-499e4f36df7f-c469/" frameborder="0" allowfullscreen="1"></iframe>
 

@@ -5,6 +5,7 @@ import '../Sensors.css'
 import TwogigMotion from '../../../../pictures/2gig-motion.png'
 import ASMotion from '../../../../pictures/as-motion.png'
 import AddMotionPath from '../MotionDetectors/MotionAdd/AddMotionPath'
+import LowBattMotionPath from '../MotionDetectors/MotionLowBatt/MotionLowBattPath'
 import { useSpring, animated } from 'react-spring';
 
 
@@ -23,6 +24,7 @@ function MotionDetector() {
                 <MotionSidebar />
                 <Switch>
                     <Route path='/motion/add-sensor' component={AddMotionPath} />
+                    <Route path='/motion/low-battery' component={LowBattMotionPath} />
 
 
                     <div className="sensor-body-container">
