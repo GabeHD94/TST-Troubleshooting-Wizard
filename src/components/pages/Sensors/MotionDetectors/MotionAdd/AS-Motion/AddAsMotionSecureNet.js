@@ -20,30 +20,73 @@ function AddAsMotionSecureNet() {
                 <div className="sensor-steps-divider">
                 </div>
 
-                <ol className="panel-steps">
-                    <li>Press the Home button (the arrow pointing up) on the panel.</li>
-                    <li>Press "Settings".</li>
-                    <li>Enter 4-Digit Passcode</li>
-                    <li>Select "Sensors.
+                <ol className="sensor-steps">
+                    <li>Open the correct SecureNet Account</li>
+                    <li>Expand the ‘Accounts’ Tab from the Nav Bar on the left side</li>
+                    <li>Click Add User / Edit
                     <ul className="list-indent">
-                            <li>If it is for a door, select "Door"</li>
-                            <li>If it is for a window, select "Window"</li>
+                            <li>Name
+                            <ul className="list-indent">
+                                    <li>Name of the User</li>
+                                </ul>
+                            </li>
+                            <li>Relationship
+                            <ul className="list-indent">
+                                    <li>Not required, but can be used to track the relation to the account holder</li>
+                                </ul>
+                            </li>
+
+                            <li>Master Checkbox
+                            <ul className="list-indent">
+                                    <li>Check this for the primary account holder’s user</li>
+                                </ul>
+                            </li>
+                            <li>Locked Checkbox</li>
+
+                            <li>Email
+                            <ul className="list-indent">
+                                    <li>Used for Email Notifications</li>
+                                </ul>
+                            </li>
+
+                            <li>Phone #
+                            <ul className="list-indent">
+                                    <li>Used for Text Notifications</li>
+                                </ul>
+                            </li>
+
+                            <li>Web Username
+                            <ul className="list-indent">
+                                    <li>Alder App Username</li>
+                                </ul>
+                            </li>
+
+
+                            <li>Web Password
+                            <ul className="list-indent">
+                                    <li>Alder App Password</li>
+                                </ul>
+                            </li>
+
+                            <li>User ID
+                            <ul className="list-indent">
+                                    <li>Choose the next available User ID or choose Master for the primary account holder</li>
+                                </ul>
+                            </li>
+
+                            <li>Panel Access Code
+                            <ul className="list-indent">
+                                    <li>Enter a valid Panel Code, refer to [SecureNet View / Edit Panel Codes] to find the valid Panel Codes</li>
+                                </ul>
+                            </li>
                         </ul>
+                        <li>Click ‘Done’</li>
                     </li>
-                    <li>Press "+ Add New Sensor"</li>
-                    <li>Trigger the sensor
-                    <ul className="list-indent">
-                            <li>Bring the 2 pieces together, then seperate them.</li>
-                        </ul>
-                    </li>
-                    <li>Name the door sensor with the given list.</li>
-                    <li>Install the new sensor. Make sure the lines on the sensor are aligned when installed.</li>
-                    <li>Press "Next" on the panel</li>
-                    <li>Add more sensors if needed, if not press "Done Adding Sensors"</li>
                 </ol>
             </div>
         </animated.div>
     )
 }
+
 
 export default AddAsMotionSecureNet
