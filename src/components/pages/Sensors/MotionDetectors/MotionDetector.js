@@ -7,6 +7,8 @@ import ASMotion from '../../../../pictures/as-motion.png'
 import AddMotionPath from '../MotionDetectors/MotionAdd/AddMotionPath'
 import LowBattMotionPath from '../MotionDetectors/MotionLowBatt/MotionLowBattPath'
 import TamperMotion from './MotionTamper/MotionTamper'
+import LossOfSupMotion from './MotionLossOfSup/MotionLossOfSup'
+import FalseAlarmMotion from './MotionFalseAlarm/MotionFalseAlarm'
 import { useSpring, animated } from 'react-spring';
 
 
@@ -27,6 +29,8 @@ function MotionDetector() {
                     <Route path='/motion/add-sensor' component={AddMotionPath} />
                     <Route path='/motion/low-battery' component={LowBattMotionPath} />
                     <Route path='/motion/tamper' component={TamperMotion} />
+                    <Route path='/motion/loss-supervision' component={LossOfSupMotion} />
+                    <Route path='/motion/false-alarm' component={FalseAlarmMotion} />
 
 
                     <div className="sensor-body-container">
