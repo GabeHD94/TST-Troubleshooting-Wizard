@@ -6,6 +6,7 @@ import TwogigMotion from '../../../../pictures/2gig-motion.png'
 import ASMotion from '../../../../pictures/as-motion.png'
 import AddMotionPath from '../MotionDetectors/MotionAdd/AddMotionPath'
 import LowBattMotionPath from '../MotionDetectors/MotionLowBatt/MotionLowBattPath'
+import TamperMotion from './MotionTamper/MotionTamper'
 import { useSpring, animated } from 'react-spring';
 
 
@@ -25,6 +26,7 @@ function MotionDetector() {
                 <Switch>
                     <Route path='/motion/add-sensor' component={AddMotionPath} />
                     <Route path='/motion/low-battery' component={LowBattMotionPath} />
+                    <Route path='/motion/tamper' component={TamperMotion} />
 
 
                     <div className="sensor-body-container">
@@ -32,8 +34,8 @@ function MotionDetector() {
                             <h1>Motion Detector</h1>
                             <h3 >Overview</h3>
                             {/* this is the same className as the images for the dw sensor */}
-                            <img className="twogig-dws" src={ASMotion} alt="asmotion"></img>
-                            <img className="luna-dws" src={TwogigMotion} alt="twogigmotion"></img>
+                            <img className="sensor-pic-big" src={ASMotion} alt="asmotion"></img>
+                            <img className="sensor-pic-medium" src={TwogigMotion} alt="twogigmotion"></img>
                             {/* <tbody> */}
                             <table>
                                 <tr>

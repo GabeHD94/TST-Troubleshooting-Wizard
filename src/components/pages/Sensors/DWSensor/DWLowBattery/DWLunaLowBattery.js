@@ -24,7 +24,7 @@ function DWLunaLowBattery() {
 
                 <div className="sensor-steps-divider">
                 </div>
-                <ol className="sensor-steps">
+                <ol className="dw-steps">
                     <li>Pull the sensor from the top, the back plate should still be stuck on the wall.</li>
                     <li>Carefully pull the sensor's chip out of the casing</li>
                     <li>(Pictured left) The yellow circles represent guards that hold the battery (Battery type :CR-2032) in place</li>

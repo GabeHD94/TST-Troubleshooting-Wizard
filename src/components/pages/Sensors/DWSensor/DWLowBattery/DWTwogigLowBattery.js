@@ -16,7 +16,7 @@ function DWTwogigLowBattery() {
         <animated.div className="sensor-container" style={props}>
             <h1>Low Battery</h1>
             <div className="sensor-wrapper">
-                <img className="equipment-pic-twogig" src={TwogigLowBatt} alt="luna batt"></img>
+                <img  src={TwogigLowBatt} alt="luna batt"></img>
                 <div className="sensor-steps-divider">
                 </div>
                 <ol className="dw-steps">

@@ -65,11 +65,15 @@ h4 {
   margin: 0rem auto 0rem auto;
 }
 
-.twogig-dws {
+.sensor-pic-big {
   width: 180px;
 }
-.luna-dws {
+.sensor-pic-medium {
   width: 130px;
+} 
+
+.step-pic {
+  width: 400px;
 }
 
 tbody table,
