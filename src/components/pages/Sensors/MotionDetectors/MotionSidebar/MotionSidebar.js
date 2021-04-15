@@ -13,8 +13,8 @@ function MotionSidebar() {
 
     return (            
     <animated.div style={props}>
-        <div className='dw-sidebar-wrapper'>
-            <ul className='dw-bu-wrapper'>
+        <div className='tsr-sidebar-wrapper'>
+            <ul>
             <h1>Motion Detector</h1>
                 <h2>Troubleshooting</h2>
                 <Link to='/motion/add-sensor' className='sidebar-bars' >

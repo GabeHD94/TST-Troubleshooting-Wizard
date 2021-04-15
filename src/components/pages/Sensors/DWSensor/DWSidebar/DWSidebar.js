@@ -13,7 +13,7 @@ function DWSidebar() {
 
     return (            
     <animated.div style={props}>
-        <div className='dw-sidebar-wrapper'>
+        <div className='tsr-sidebar-wrapper'>
             <ul className='dw-bu-wrapper'>
             <h1>Door/Window Sensor</h1>
                 <h2>Troubleshooting</h2>

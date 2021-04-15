@@ -1,4 +1,4 @@
-.dw-sidebar-wrapper {
+.tsr-sidebar-wrapper {
     display: grid;
     background-color: #203647;
     width: 280px;
@@ -11,7 +11,7 @@
     height: 90vh;
 }
 
-.dw-sidebar-wrapper li{
+.tsr-sidebar-wrapper li{
     list-style: none;
 
     /* transition: 0.2s; */
@@ -20,12 +20,12 @@
 }
 
 
-.dw-sidebar-wrapper h2{
+.tsr-sidebar-wrapper h2{
     padding: 10px;
     text-decoration: underline;
 }
 
-.dw-sidebar-wrapper li:hover {
+.tsr-sidebar-wrapper li:hover {
     background-color: #00B0F0;
     color: white;
     cursor: pointer;
